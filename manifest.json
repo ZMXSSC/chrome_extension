@@ -1,0 +1,11 @@
+{
+  "name": "my-extension",
+  "description": "This is my first chrome extension",
+  "version": "0.1",
+  "manifest_version": 2,
+  "permissions": ["geolocation"],
+  "browser_action":{
+    "default_icon": "image/11machin-illo-superJumbo-v3.jpeg",
+    "default_popup": "popup.html"
+  }
+}
